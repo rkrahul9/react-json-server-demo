@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "firstName": "Raju",
+      "lastName": "sharma",
+      "email": "a@mailinator.com",
+      "imgUrl": "https://loremflickr.com/320/240",
+      "password": "123",
+      "isLoggedIn": true,
+      "id": 1
+    },
+    {
+      "imgUrl": "https://loremflickr.com/320/240/dog",
+      "email": "b@mailinator.com",
+      "password": "123",
+      "isLoggedIn": true,
+      "id": 2
+    },
+    {
+      "firstName": "Raju",
+      "lastName": "Kumar",
+      "email": "c@mailinator.com",
+      "imgUrl": "https://loremflickr.com/g/320/240/paris",
+      "password": "123",
+      "isLoggedIn": true,
+      "id": 3
+    },
+    {
+      "imgUrl": "https://homepages.cae.wisc.edu/~ece533/images/arctichare.png",
+      "email": "d@mailinator.com",
+      "password": "123",
+      "isLoggedIn": true,
+      "id": 4
+    },
+    {
+      "imgUrl": "https://loremflickr.com/320/240/paris,girl/all",
+      "email": "e@mailinator.com",
+      "password": "123",
+      "isLoggedIn": true,
+      "id": 5
+    },
+    {
+      "imgUrl": "https://loremflickr.com/320/240",
+      "email": "abx@mailinator.com",
+      "password": "123",
+      "isLoggedIn": true,
+      "id": 6
+    },
+    {
+      "imgUrl": "https://loremflickr.com/320/240/dog",
+      "email": "add@mailinator.com",
+      "password": "123",
+      "isLoggedIn": true,
+      "id": 7
+    },
+    {
+      "imgUrl": "https://homepages.cae.wisc.edu/~ece533/images/arctichare.png",
+      "email": "qwer@mailinator.com",
+      "password": "123",
+      "isLoggedIn": true,
+      "id": 8
+    },
+    {
+      "imgUrl": "https://loremflickr.com/320/240/paris,girl/all",
+      "email": "asd@mailinator.com",
+      "password": "123",
+      "isLoggedIn": true,
+      "id": 9
+    },
+    {
+      "imgUrl": "https://loremflickr.com/g/320/240/paris",
+      "email": "azx@mailinator.com",
+      "password": "123",
+      "isLoggedIn": true,
+      "id": 10
+    }
+  ]
+}
