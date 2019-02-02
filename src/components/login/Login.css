@@ -1,0 +1,52 @@
+.fullscreen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.beta_badge {
+  margin-left: -10px;
+}
+.row {
+  padding-bottom: 6rem;
+}
+.login-form h1 {
+  font-size: 2rem;
+  color: #212529;
+}
+.login-form h4 {
+  line-height: 1.5;
+  color: #6c757d;
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.5px;
+}
+hr {
+  border-color: #E9EEF2;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.form-control {
+  font-size: .875rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #E9EEF2;
+  border-radius: 0.5rem;
+  height: 40px;
+  padding: 0.4375rem 1rem;
+  -webkit-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -moz-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -ms-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -o-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form-control:focus {
+  border-color: #99caff;
+  box-shadow: none;
+}
+.btn {
+  font-weight: bold;
+  font-size: 1.125rem;
+}
