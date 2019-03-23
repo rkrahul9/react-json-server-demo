@@ -4,16 +4,11 @@ import './Contacts.css';
 
 export class Contacts extends React.Component {
 
-  constructor(props){
-    super(props);
-    this.handleFilter = this.handleFilter.bind(this);
-  }
-
   componentDidMount() {
     this.props.getUserList();
   }
 
-  handleFilter(){
+  handleFilter = () => {
     const value = this.refs.filter.value;
     if(value){
       this.props.filterUser({ value });
@@ -33,7 +28,7 @@ export class Contacts extends React.Component {
             </div>
             <h2 className="d-inline-block">Welcome to Contacts Section</h2>
             <div className="clearfix"></div>
-            <input type="text" ref="filter" onChange={this.handleFilter} placeholder="Enter here to filter" className="contact-search mt-3 mb-3" />
+            <input type="text" ref="filter" onChange={() => this.handleFilter} placeholder="Enter here to filter" className="contact-search mt-3 mb-3" />
             <ul className="contact-list">
               {
                 this.props.userList.map((value, index) => (

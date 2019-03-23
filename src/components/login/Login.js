@@ -3,12 +3,8 @@ import { Link } from 'react-router-dom';
 import './Login.css';
 
 export class Login extends React.Component {
-  constructor(props){
-    super(props);
-    this.handleLogin = this.handleLogin.bind(this);
-  }
 
-  handleLogin(e){
+  handleLogin = (e) => {
     const email = this.refs.email.value;
     const password = this.refs.password.value;
     const isLoggedIn = true;
@@ -37,7 +33,7 @@ export class Login extends React.Component {
                 <input type="password" className="form-control" ref="password" placeholder="Password" />
               </div>
               <div className="form-group">
-                <button className="btn btn-lg btn-block btn-primary" onClick={this.handleLogin}>Log In</button>              
+                <button className="btn btn-lg btn-block btn-primary" onClick={() => this.handleLogin}>Log In</button>              
                 <small className="mt-1">Don't have an account <Link to='/signup'>SignUp</Link></small>
               </div>
             </div>
