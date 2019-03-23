@@ -8,13 +8,9 @@ import history from './history';
 import './App.css';
 
 class App extends Component {
-
-  constructor(props){
-    super(props);
-    this.handleLogout = this.handleLogout.bind(this);
-    this.state ={
-      authenticated: false
-    }
+    
+  state ={
+    authenticated: false
   }
 
   componentWillMount() {
@@ -50,7 +46,7 @@ class App extends Component {
           <div className="layout layout-nav-side">
           { this.state.authenticated ? <Sidenav /> : "" }              
             <div className="main-container">
-            { this.state.authenticated ? <Header users={this.props.users} Logout={this.handleLogout}/>: ""}
+            { this.state.authenticated ? <Header users={this.props.users} Logout={() => this.handleLogout}/>: ""}
               <Routes authenticated={ this.state.authenticated } />
             </div>
           </div>
