@@ -4,12 +4,7 @@ import './Account.css';
 
 export class Account extends React.Component {
 
-  constructor(props){
-    super(props);
-    this.handleAccount = this.handleAccount.bind(this);
-  }
-
-  handleAccount(e){
+  handleAccount = (e) => {
     const firstName = this.refs.fname.value;
     const lastName = this.refs.lname.value;
     const email = this.refs.email.value;
@@ -39,7 +34,7 @@ export class Account extends React.Component {
               <input type="email" className="form-control" ref="email" placeholder="email" defaultValue={this.props.users.email}/>
             </div>
             <div className="form-group mt-4">
-              <button className="btn btn-success btn-lg" onClick={this.handleAccount}>Save</button>          
+              <button className="btn btn-success btn-lg" onClick={() => this.handleAccount}>Save</button>          
             </div>
           </div>
         </div>

@@ -31,7 +31,7 @@ class App extends Component {
     }
   }
 
-  handleLogout(){
+  handleLogout = () => {
     localStorage.clear();
     this.setState({
       authenticated: false
